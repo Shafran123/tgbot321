@@ -7,7 +7,7 @@ var FirebaseManager = require('./FirebaseManager.js');
 
 if(process.env.NODE_ENV === 'production') {
   bot = new Bot(token);
-  bot.setWebHook('https://attendance-list-bot.herokuapp.com/' + bot.token);
+  bot.setWebHook('YOUR-APP-URL' + bot.token);
 }
 else {
   bot = new Bot(token, { polling: true });
