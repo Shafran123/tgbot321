@@ -4,7 +4,7 @@
 var firebase = require("firebase");
 
 firebase.initializeApp({
- serviceAccount: "AttendanceList-8558d9d6977d.json",
+ serviceAccount: "YOUR-SECURITY-PRIVATE-KEY.json",
  databaseURL: "YOUR-FIREBASE-URL"
 });
 
