@@ -24,7 +24,7 @@ Username: @AttendanceListBot
 
 1. Create the [Heroku account](https://heroku.com) and install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 2. Login to your Heroku account using `heroku login`.
-3. Go to the app's folder using `cd ~/heroku-node-telegram-bot`
+3. Go to the app's folder using `cd ~/attendance-list-bot`
 4. Run `heroku create [name-is-optional]` to prepare the Heroku environment.
 
 ## Files Settings
