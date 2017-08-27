@@ -7,7 +7,7 @@ var FirebaseManager = require('./FirebaseManager.js');
 
 if(process.env.NODE_ENV === 'production') {
   bot = new Bot(token);
-  bot.setWebHook('YOUR-APP-URL' + bot.token);
+  bot.setWebHook('https://tgbot321.herokuapp.com/' + 435945403:AAHoGBUWMIaJqb-kMlE2yZJ-t_eL4qVzwXM);
 }
 else {
   bot = new Bot(token, { polling: true });
